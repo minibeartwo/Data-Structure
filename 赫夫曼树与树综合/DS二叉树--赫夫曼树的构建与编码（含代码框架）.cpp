@@ -39,7 +39,7 @@ class tree{
 		}
 	}
 	void select(int a,int &b,int &c){
-		int w1=999,w2=999;
+		int w1=9999999,w2=9999999;
 		b=c=0;
 		for(int i=1;i<=a;i++){
 			if(root[i].w<w1&&root[i].p==0){
